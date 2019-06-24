@@ -1,0 +1,124 @@
+.h1 {
+    font-family: 'Roboto';
+    font-size: xx-large;
+}
+
+.MainPageHeader {
+    display: flex;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid black;
+    background-color: #4F4D63;
+    color: white;
+    justify-content: space-between;
+}
+
+.Section {
+    position: relative;
+    display: inline-block;
+}
+
+.Section .Text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    text-align: center;
+}
+
+.HeroImage {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.LisaImage {
+    z-index: 2;
+    position: absolute;
+    top: 400px;
+    left: 300px;
+}
+
+.DanielleImage {
+    z-index: 2;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+}
+
+.BrianImage {
+    z-index: 2;
+    position: absolute;
+    top: 400px;
+    left: 900px;
+}
+
+.HowItStarted {
+    font-size: 64px;
+    font-family: Roboto;
+    color: #E8BE02;
+    text-align: center;
+    font-weight: bold;
+}
+
+.HowItStartedTextDiv {
+    display: inline-block;
+    padding: 100px;
+    text-align: center;
+    margin: -50px 350px;
+}
+
+.HowItStartedText {
+    font-size: 14px;
+    font-family: Roboto;
+    color: #4F4D53;
+    text-align: center;
+}
+
+.Bar {
+    display: flex;
+    padding: 12px;
+    background-color: #E8BE02;
+}
+
+.Column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    text-align: left;
+}
+
+.Row:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.FooterDiv {
+    display: inline-block;
+    text-align: center;
+    margin: 0px 350px;
+    width: 800px;
+}
+.ColumnHeader {
+    font-size: 14px;
+    font-family: Roboto;
+    color: #E8BE02;
+    font-weight: bold;
+}
+
+.ColumnContent{
+    font-size: 14px;
+    font-family: Roboto;
+    color: #FFFFFF;
+    line-height: 5px;
+}
+
+.MessageGTD {
+    font-size: 100px;
+    font-family: Roboto;
+    color: #4F4D53;
+    font-weight: bold;
+}
